@@ -13,6 +13,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "fmt": "prettier --write ."
+    "fmt": "prettier --write .",
+    "predeploy": "next build && next export"
   }
 }
